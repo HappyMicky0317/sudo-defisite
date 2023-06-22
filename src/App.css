@@ -1,0 +1,23 @@
+@font-face {
+  font-family: travel;
+  /* src: url('./assets/fonts/TT\ Travels\ Trial\ Regular.otf'); */
+  src: url('./assets/fonts/TT\ Travels\ Trial\ Thin.otf');
+}
+@font-face {
+  font-family: travel-bold;
+  /* src: url('./assets/fonts/TT\ Travels\ Trial\ Regular.otf'); */
+  src: url('./assets/fonts/TT\ Travels\ Trial\ Bold.otf');
+}
+
+.App {
+  color: rgba(247, 236, 225, 0.7);
+  background-image: url('./assets/Bg.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  min-height: 100vh !important;
+  overflow: visible
+}
+
+input {
+  outline: none;
+}
